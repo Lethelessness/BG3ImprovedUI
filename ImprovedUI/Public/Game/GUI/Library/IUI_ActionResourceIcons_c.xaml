@@ -415,5 +415,15 @@
 		</ControlTemplate.Resources>
 		<ContentControl ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
 	</ControlTemplate>
+
+	<ControlTemplate x:Key="ActionResources.ActionGroup.LivingFlameChargeGroup" TargetType="ls:LSActionPoint">
+		<ControlTemplate.Resources>
+			<ImageSource x:Key="Highlight">/GustavNoesisGUI;component/Assets/FireBoots/ActionResources_c/Icons/c_Icon_LivingFlame_highlight.png</ImageSource>
+			<ImageSource x:Key="Available">/GustavNoesisGUI;component/Assets/FireBoots/ActionResources_c/Icons/c_Icon_LivingFlame.png</ImageSource>
+			<ImageSource x:Key="Used">/GustavNoesisGUI;component/Assets/FireBoots/ActionResources_c/Icons/c_Icon_LivingFlame_used.png</ImageSource>
+			<ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/FireBoots/ActionResources_c/Icons/c_Icon_LivingFlame_missing.png</ImageSource>
+		</ControlTemplate.Resources>
+		<ContentControl ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
+	</ControlTemplate>
 	<!-- EDIT HERE -->
 </ResourceDictionary>
